@@ -59,7 +59,6 @@ class AntCascader extends Component {
   render() {
     return (
       <div>
-        <div>区域选择</div>
         <div className='white-block'>
           <Table columns={columns}
             dataSource={this.state.orders}
