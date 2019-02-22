@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import AntCascader from './Cascader';
+import logo from '../../assets/logo.svg';
+import './index.css';
+import AntCascader from '../Cascader/';
 
 class App extends Component {
   render() {
@@ -11,9 +11,9 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>区域选择</h2>
         </div>
-        <p className="App-intro">
+        <div className="App-intro">
           <AntCascader />
-        </p>
+        </div>
       </div>
     );
   }
